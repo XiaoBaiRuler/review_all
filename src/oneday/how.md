@@ -54,3 +54,19 @@
 > 解题思路1：按照流程来的
 >
 > [代码](OneDay08.java)
+
+#### [867. 转置矩阵](https://leetcode-cn.com/problems/transpose-matrix/)
+
+> 给你一个二维整数数组 `matrix`， 返回 `matrix` 的 **转置矩阵** 。
+>
+> 矩阵的 **转置** 是指将矩阵的主对角线翻转，交换矩阵的行索引与列索引。
+>
+> m == matrix.length
+> n == matrix[i].length
+> 1 <= m, n <= 1000
+> 1 <= m * n <= 105
+> -109 <= matrix[i][j] <= 109
+>
+> 解题思路1：为了节省空间：分两种情况讨论：宽高相同和不同
+>
+> [代码](OneDay09.java)
