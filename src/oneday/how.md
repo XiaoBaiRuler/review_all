@@ -70,3 +70,23 @@
 > 解题思路1：为了节省空间：分两种情况讨论：宽高相同和不同
 >
 > [代码](OneDay09.java)
+
+#### [219. 存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/)
+
+> 给定一个整数数组和一个整数 k，判断数组中是否存在两个不同的索引 i 和 j，使得 nums [i] = nums [j]，并且 i 和 j 的差的 绝对值 至多为 k。
+>
+> 解题思路1：HashMap
+>
+> [代码](OneDay10.java)
+
+#### [896. 单调数列](https://leetcode-cn.com/problems/monotonic-array/)
+
+> 如果数组是单调递增或单调递减的，那么它是单调的。
+>
+> 如果对于所有 i <= j，A[i] <= A[j]，那么数组 A 是单调递增的。 如果对于所有 i <= j，A[i]> = A[j]，那么数组 A 是单调递减的。
+>
+> 当给定的数组 A 是单调数组时返回 true，否则返回 false
+>
+> 解题思路1：两个标志位，来判断
+>
+> [代码](OneDay11.java)
