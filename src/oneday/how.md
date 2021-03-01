@@ -90,3 +90,25 @@
 > 解题思路1：两个标志位，来判断
 >
 > [代码](OneDay11.java)
+
+#### [303. 区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/)
+
+> 给定一个整数数组  nums，求出数组从索引 i 到 j（i ≤ j）范围内元素的总和，包含 i、j 两点。
+>
+> 实现 NumArray 类：
+>
+> - NumArray(int[] nums) 使用数组 nums 初始化对象
+> - int sumRange(int i, int j) 返回数组 nums 从索引 i 到 j（i ≤ j）范围内元素的总和，包含 i、j 两点（也是 sum(nums[i], nums[i + 1], ... , nums[j])）
+>
+> 提示：
+>
+> - 0 <= nums.length <= 104
+> - -105 <= nums[i] <= 105
+> - 0 <= i <= j < nums.length
+> - 最多调用 104 次 sumRange 方法
+>
+> 解题思路1：空间复杂度较优：直接用原数组，来暴力计算
+>
+> 解题思路2：时间复杂度较优：构建另外一个数组存储前面元素之和的结果数组，每次求范围就计算
+>
+> [代码](OneDay12.java)
