@@ -179,3 +179,13 @@
 > 解题思路1：遍历，按要求做就行了
 >
 > [代码](OneDay16.java)
+
+#### [1784. 检查二进制字符串字段](https://leetcode-cn.com/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
+
+> 给你一个二进制字符串 s ，该字符串 不含前导零 。
+>
+> 如果 s 最多包含 一个由连续的 '1' 组成的字段 ，返回 true 。否则，返回 false 
+>
+> 解题思路1：判断第一次是否间隔重复出现1
+>
+> [代码](OneDay17.java)
