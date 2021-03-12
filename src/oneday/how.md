@@ -244,3 +244,20 @@
 >
 > [代码](OneDay22.java)
 
+#### [100. 相同的树](https://leetcode-cn.com/problems/same-tree/)
+
+> 给你两棵二叉树的根节点 `p` 和 `q` ，编写一个函数来检验这两棵树是否相同。
+>
+> 如果两个树在结构上相同，并且节点具有相同的值，则认为它们是相同的。
+>
+> 解题思路1：前序和中序遍历的顺序元素一致，才是相同树(任意两种遍历都可以)
+>
+> [代码](OneDay23.java)
+
+#### [203. 移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/)
+
+> 给你一个链表的头节点 `head` 和一个整数 `val` ，请你删除链表中所有满足 `Node.val == val` 的节点，并返回 **新的头节点** 。
+>
+> 解题思路1：快慢指针
+>
+> [代码](OneDay24.java)
