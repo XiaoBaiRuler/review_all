@@ -275,3 +275,25 @@
 > 解题思路1：由于太长了，所以不能直接转化，只能使用位运算，一点点算了
 >
 > [代码](OneDay26.java)
+
+#### [83. 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/)
+
+> 给定一个排序链表，删除所有重复的元素，使得每个元素只出现一次。
+>
+> 解题思路1：快慢指针
+>
+> [代码](OneDay27.java)
+
+#### [258. 各位相加](https://leetcode-cn.com/problems/add-digits/)
+
+> 给定一个非负整数 `num`，反复将各个位上的数字相加，直到结果为一位数。
+>
+> 解题思路1：直接遍历
+>
+> [代码](OneDay28.java)
+>
+> 解题思路2：
+>
+> > - x < 9：x
+> > - x % 9 == 0: 9
+> > - 其他：x % 9 
