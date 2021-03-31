@@ -13,3 +13,15 @@
 >
 > [DoubleSix01.java](DoubleSix01.java)
 
+#### [剑指 Offer 40. 最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)
+
+> 输入整数数组 `arr` ，找出其中最小的 `k` 个数。例如，输入4、5、1、6、2、7、3、8这8个数字，则最小的4个数字是1、2、3、4。
+>
+> 解题思路1：遍历，获得新数组时：可以使用Arrays.copyOf节省空间
+>
+> [DoubleSix02.java](DoubleSix02.java)
+>
+> 解题思路2：堆
+>
+> 解题思路3：简化版的快速排序
+
