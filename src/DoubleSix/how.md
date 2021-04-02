@@ -76,3 +76,10 @@
 >
 > [DoubleSix06.java](DoubleSix06.java)
 
+#### [面试题 17.21. 直方图的水量](https://leetcode-cn.com/problems/volume-of-histogram-lcci/)
+
+> 给定一个直方图(也称柱状图)，假设有人从上面源源不断地倒水，最后直方图能存多少水量?直方图的宽度为 1。
+>
+> 解题思路1：一行一行来统计，时间复杂度为N + max * 2N，空间复杂度为O(1)；但是时间复杂度只超越5%，空间复杂度只超越53.62%，所以不是最优算法，考虑为第一次做困难题，允许不60%吧
+>
+> [DoubleSix07.java](DoubleSix07.java)
