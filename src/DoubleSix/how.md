@@ -132,3 +132,13 @@
 > 解题思路1：借助node.val的范围，每个节点+200001，当超过100000就是结果，最后再给它复位就行了，空间复杂度O(1)，时间复杂度O(2N)
 >
 > [DoubleSix10.java](DoubleSix10.java)
+
+#### [80. 删除有序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)
+
+> 给你一个有序数组 nums ，请你 原地 删除重复出现的元素，使每个元素 最多出现两次 ，返回删除后数组的新长度。
+>
+> 不要使用额外的数组空间，你必须在 原地 修改输入数组 并在使用 O(1) 额外空间的条件下完成
+>
+> 解题思路1：遍历，标志位判断出现两次；不同直接赋值，时间复杂度O(N)，空间复杂度O(1)
+>
+> [DoubleSix11.java](DoubleSix11.java)
