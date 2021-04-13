@@ -225,3 +225,20 @@
 > 解题思路1：分清头插入和中间插入，尾插入直接跳过
 >
 > [DoubleSix17.java](DoubleSix17.java)
+
+#### [179. 最大数](https://leetcode-cn.com/problems/largest-number/)
+
+> 给定一组非负整数 nums，重新排列每个数的顺序（每个数不可拆分）使之组成一个最大的整数。
+>
+> 注意：输出结果可能非常大，所以你需要返回一个字符串而不是整数。
+>
+> 解题思路1：
+>
+> > 直接改comparator来排序，位数相等且各位不全相等，就是一般位数比较问题
+> > 但是位数不相等时，就只能分情况讨论
+> >
+> > str1.length > min时
+> > str2.length > min时
+> > 两种情况都是比较str1+str2 和str2+str1的情况
+>
+> [DoubleSix18.java](DoubleSix18.java)
