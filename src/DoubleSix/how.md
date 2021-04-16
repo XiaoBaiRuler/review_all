@@ -271,3 +271,11 @@
 > 解题思路1：按逻辑分类，没有优化
 >
 > [DoubleSix20.java](DoubleSix20.java)
+
+#### [704. 二分查找](https://leetcode-cn.com/problems/binary-search/)
+
+> 给定一个 n 个元素有序的（升序）整型数组 nums 和一个目标值 target  ，写一个函数搜索 nums 中的 target，如果目标值存在返回下标，否则返回 -1。
+>
+> 解题思路1：二分法
+>
+> [DoubleSix21.java](DoubleSix21.java)
