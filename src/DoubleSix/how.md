@@ -279,3 +279,11 @@
 > 解题思路1：二分法
 >
 > [DoubleSix21.java](DoubleSix21.java)
+
+#### [163. 缺失的区间](https://leetcode-cn.com/problems/missing-ranges/)
+
+> 给定一个排序的整数数组 ***nums*** ，其中元素的范围在 **闭区间** **[\*lower, upper\*]** 当中，返回不包含在数组中的缺失区间。
+>
+> 解题思路1：注意边界，特别是前后的边界问题
+>
+> [DoubleSix22.java](DoubleSix22.java)
