@@ -297,3 +297,11 @@
 > 解题思路1：通过双指针，隔开x个后同步移动。
 >
 > [DoubleSix23.java](DoubleSix23.java)
+
+#### [剑指 Offer 05. 替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
+
+> 请实现一个函数，把字符串 `s` 中的每个空格替换成"%20"。
+>
+> 解题思路1：遍历，然后替换
+>
+> [DoubleSix24.java](DoubleSix24.java)
