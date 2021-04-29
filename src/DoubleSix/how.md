@@ -305,3 +305,11 @@
 > 解题思路1：遍历，然后替换
 >
 > [DoubleSix24.java](DoubleSix24.java)
+
+#### [剑指 Offer 64. 求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)
+
+> 求 `1+2+...+n` ，要求不能使用乘除法、for、while、if、else、switch、case等关键字及条件判断语句（A?B:C）。
+>
+> 解题思路1：Math.pow代替乘法，>> 1代替除于2
+>
+> [DoubleSix25.java](DoubleSix25.java)
