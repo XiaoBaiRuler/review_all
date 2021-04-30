@@ -313,3 +313,13 @@
 > 解题思路1：Math.pow代替乘法，>> 1代替除于2
 >
 > [DoubleSix25.java](DoubleSix25.java)
+
+#### [剑指 Offer 59 - II. 队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/)
+
+> 请定义一个队列并实现函数 max_value 得到队列里的最大值，要求函数max_value、push_back 和 pop_front 的均摊时间复杂度都是O(1)。
+>
+> 若队列为空，pop_front 和 max_value 需要返回 -1
+>
+> 解题思路1：通过两个队列维护，一个维护最大值，一个维护正常队列进出，但是不了解均摊O(1)怎样定义
+>
+> [DoubleSix26.java](DoubleSix26.java)
