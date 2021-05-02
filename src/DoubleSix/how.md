@@ -323,3 +323,25 @@
 > 解题思路1：通过两个队列维护，一个维护最大值，一个维护正常队列进出，但是不了解均摊O(1)怎样定义
 >
 > [DoubleSix26.java](DoubleSix26.java)
+
+#### [137. 只出现一次的数字 II](https://leetcode-cn.com/problems/single-number-ii/)
+
+> 给你一个整数数组 `nums` ，除某个元素仅出现 **一次** 外，其余每个元素都恰出现 **三次 。**请你找出并返回那个只出现了一次的元素。
+>
+> 解题思路1：O(NlogN)：排序，再查找
+>
+> [DoubleSix27.java](DoubleSix27.java)
+
+#### [剑指 Offer 10- I. 斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
+
+> 写一个函数，输入 n ，求斐波那契（Fibonacci）数列的第 n 项（即 F(N)）。斐波那契数列的定义如下：
+>
+> F(0) = 0,   F(1) = 1
+> F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
+> 斐波那契数列由 0 和 1 开始，之后的斐波那契数就是由之前的两数相加而得出。
+>
+> 答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。
+>
+> 解题思路1：不要被误导为结果求模，是每次相加之后都要小于1000000007
+>
+> [DoubleSix28.java](DoubleSix28.java)
