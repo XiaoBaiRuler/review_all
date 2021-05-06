@@ -22,3 +22,17 @@
 >
 > [Offer03.java](Offer03.java)
 
+#### [剑指 Offer 57. 和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/)
+
+> 输入一个递增排序的数组和一个数字s，在数组中查找两个数，使得它们的和正好是s。如果有多对数字的和等于s，则输出任意一对即可。
+>
+> 解题思路1：
+>
+> > 以查找值得中间值为下界限，以target为上界限，查找两个界限得a,b：O(N)
+> >
+> > 再遍历[a+1,b)得值，并将该值和target相减，再用二分法从[0,a]查找相减后得值，存在就为结果：O(NlogN)
+> >
+> > N得界限视实际情况为定，平均应该为数组长度得一半吧
+>
+> [Offer04.java](Offer04.java)
+
