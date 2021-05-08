@@ -48,3 +48,11 @@
 >
 > [Offer05.java](Offer05.java)
 
+#### [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)
+
+> 统计一个数字在排序数组中出现的次数。
+>
+> 解题思路1：先用二分法找到是否该数，并返回下标；然后向两边查找统计个数。时间复杂度为O(logN) - O(N)，空间复杂度为O(1)
+>
+> [Offer06.java](Offer06.java)
+
