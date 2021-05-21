@@ -81,3 +81,11 @@
 > 解题思路1：动态规划
 >
 > [Offer09.java](Offer09.java)
+
+#### [剑指 Offer 25. 合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/)
+
+> 输入两个递增排序的链表，合并这两个链表并使新链表中的节点仍然是递增排序的。
+>
+> 解题思路1：类似插入排序吧
+>
+> [Offer10.java](Offer10.java)
