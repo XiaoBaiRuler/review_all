@@ -97,3 +97,13 @@
 > 解题思路1：遍历
 >
 > [Offer11.java](Offer11.java)
+
+#### [剑指 Offer 30. 包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/)
+
+> 定义栈的数据结构，请在该类型中实现一个能够得到栈的最小元素的 min 函数在该栈中，调用 min、push 及 pop 的时间复杂度都是 O(1)。
+>
+> 解题思路1：堆PriorityQueue
+>
+> 解题思路2：手写一个单调链表
+>
+> [Offer12.java](Offer12.java)
