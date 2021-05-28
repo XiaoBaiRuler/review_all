@@ -131,3 +131,11 @@
 > 解题思路1：动态规划？n-1?
 >
 > [Offer14.java](Offer14.java)
+
+#### [670. 最大交换](https://leetcode-cn.com/problems/maximum-swap/)
+
+> 给定一个非负整数，你**至多**可以交换一次数字中的任意两位。返回你能得到的最大值。
+>
+> 解题思路1：转为数组，再考虑
+>
+> [Offer15.java](Offer15.java)
